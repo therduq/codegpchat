@@ -1,0 +1,34 @@
+
+
+<ion-content class="ion-padding">
+  <div style="height: 50px; width: 100%;"></div>
+  <h1 class="ion-text-center appname animate__animated animate__bounce">
+    <ion-icon name="chatbubbles-outline" >
+
+    </ion-icon> ChatBot
+  </h1>
+  <ion-list>
+    <!--Input Username-->
+    <ion-item lines="none">
+      <ion-label position="floating" color="greenlive" mode="ios">Username</ion-label>
+      <ion-input placeholeder="@username"></ion-input>
+    </ion-item>
+    <!--Input Password-->
+    <ion-item lines="none">
+      <ion-label position="floating" color="greenlive" mode="ios">Password</ion-label>
+      <ion-input placeholeder="Password" type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" color="greenlive" routerLink="/login">Register</ion-button>
+  <ion-button expand="block" color="greenlive" fill="outline" routerLink="/login">login</ion-button>
+  <br>
+  <p class="ion-text-center" style="color: #00C27C;">
+    or Register with.
+  </p>
+  <br>
+  <p class="ion-text-center">
+    <ion-icon name="logo-google" class="size-32 mlr" color="greenlive" routerLink="/login"></ion-icon>
+    <ion-icon name="logo-facebook" class="size-32 mlr" color="greenlive" routerLink="/login"></ion-icon>
+    <ion-icon name="logo-github" class="size-32 mlr" color="greenlive" routerLink="/login"></ion-icon>
+  </p>
+</ion-content>

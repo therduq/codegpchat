@@ -24,3 +24,49 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+/*  Colors 
+
+    bg-color : #E7F3F3;
+    bg-color2 : #E7F3F3;
+
+*/
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.size-42{
+    font-size: 42px;
+}
+
+.size-32{
+    font-size: 32px;
+}
+
+.size-24{
+    font-size: 24px;
+}
+
+.size-16{
+    font-size: 16px;
+}
+
+
+.mt{
+    font-size: 64px;
+    color: #00C27C;
+}
+
+.appname{
+font-size: 64px;
+font-weight: 600;
+color: #00C27C;
+}
+
+.mlr{
+    margin-left: 5px;
+    margin-right: 5px;
+}

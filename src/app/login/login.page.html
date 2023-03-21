@@ -1,0 +1,36 @@
+
+<ion-content class="ion-padding">
+  <div style="height: 20px; width: 100%;"></div>
+  <h1 class="ion-text-center appname animate__animated animate__bounce">
+    <ion-icon name="chatbubbles-outline" >
+
+    </ion-icon> ChatBot
+  </h1>
+  <ion-list>
+    <!--Input Username-->
+    <ion-item lines="none">
+      <ion-label position="floating" color="greenlive" mode="ios">Username</ion-label>
+      <ion-input placeholeder="@username"></ion-input>
+    </ion-item>
+    <!--Input Password-->
+    <ion-item lines="none">
+      <ion-label position="floating" color="greenlive" mode="ios">Password</ion-label>
+      <ion-input placeholeder="Password" type="password"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label><p style="font-weight: 300;">Remember Password</p></ion-label>
+      <ion-checkbox slot="end" color="greenlive"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" color="greenlive" routerLink="/chat">Login</ion-button>
+  <br>
+  <p class="ion-text-center" style="color: #00C27C;">
+    or Login with.
+  </p>
+  <p class="ion-text-center">
+    <ion-icon name="logo-google" class="size-32 mlr" color="greenlive" routerLink="/chat"></ion-icon>
+    <ion-icon name="logo-facebook" class="size-32 mlr" color="greenlive" routerLink="/chat"></ion-icon>
+    <ion-icon name="logo-github" class="size-32 mlr" color="greenlive" routerLink="/chat"></ion-icon>
+  </p>
+  <p class="ion-text-center" routerLink="/recover">Forgot <strong>Password?</strong></p>
+</ion-content>

@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="greenlive">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Recover</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div style="height: 20px; width: 100%;"></div>
+  <h1 class="ion-text-center appname animate__animated animate__bounce">
+    <ion-icon name="chatbubbles-outline" >
+
+    </ion-icon> ChatBot
+  </h1>
+
+  <p class="ion-text-center" style="color: #00C27C;">
+    Enter the email with which you registered to which we will send the steps to recover your password
+  </p>
+
+  <ion-list>
+    <!--Input Email-->
+    <ion-item lines="none">
+      <ion-label position="floating" color="greenlive" mode="ios">Email</ion-label>
+      <ion-input placeholeder="user@email.com"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="greenlive" routerLink="/home">Recover</ion-button>
+
+</ion-content>

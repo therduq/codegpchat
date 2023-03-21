@@ -3,6 +3,15 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  /** Greenlive **/
+  --ion-color-greenlive: #00C27C;
+	--ion-color-greenlive-rgb: 0,0,0;
+	--ion-color-greenlive-contrast: #ffffff;
+	--ion-color-greenlive-contrast-rgb: 255,255,255;
+	--ion-color-greenlive-shade: #000000;
+	--ion-color-greenlive-tint: #1a1a1a;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +83,15 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+.ion-color-greenlive {
+	--ion-color-base: var(--ion-color-greenlive);
+	--ion-color-base-rgb: var(--ion-color-greenlive-rgb);
+	--ion-color-contrast: var(--ion-color-greenlive-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-greenlive-contrast-rgb);
+	--ion-color-shade: var(--ion-color-greenlive-shade);
+	--ion-color-tint: var(--ion-color-greenlive-tint);
 }
 
 @media (prefers-color-scheme: dark) {
